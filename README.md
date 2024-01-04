@@ -1,2 +1,11 @@
-# hbcfs
-imagen
+escudo.goto(tamaño/4, tamaño/4)
+escudo.pendown()
+escudo.fillcolor("pink")
+escudo.begin_fill()
+for i in range(6):
+    escudo.circle(tamaño/40)
+    escudo.penup()
+    escudo.forward(tamaño/20)
+    escudo.right(60)
+    escudo.pendown()
+escudo.end_fill()
